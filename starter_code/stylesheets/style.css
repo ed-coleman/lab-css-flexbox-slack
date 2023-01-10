@@ -8,3 +8,153 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #540851;
+}
+
+nav {
+  width: 100vw;
+  background-color: #540851;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  margin-right: 50px;
+}
+
+.buttoncontainer a {
+  margin: 10px;
+}
+
+.buttoncontainer ul {
+  list-style: none;
+}
+
+.signin {
+  color: white;
+  text-decoration: none;
+}
+
+.tryforfree {
+  width: 50px;
+  color: blueviolet;;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border: 1em;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.listcontainer {
+   list-style: none; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+
+.listcontainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 25px 10px 25px 50px;
+}
+
+.section1 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.section1 h1 {
+  font-size: 70px;
+
+}
+
+.section1 {
+  width: 50vw;
+  margin: 50px;
+}
+
+.section1 p {
+  font-size: 2em;
+  width: 50vw;
+}
+
+
+header { 
+  height: 30%;
+  background-color: #540851;
+  display: flex;
+  justify-content: row;
+}
+
+.section2 {
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-email {
+  background-color: white;
+  padding: 20px;
+  margin-right: 50px;
+  border-radius: 5px;
+  color: #540851;
+  font-size: 1.5em;
+  
+}
+
+.sign-up-google {
+
+  background-color: #4285F4;
+  padding: 20px;
+  margin-right: 50px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: white
+}
+
+.hero {
+
+  width: 50vw
+
+}
+
+.section3 {
+  background-color: #F3EAE2;
+  width: 100vw;
+}
+
+.partner-logos {
+  display: flex;
+  
+
+}
+
